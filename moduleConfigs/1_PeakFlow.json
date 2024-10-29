@@ -1,0 +1,194 @@
+{
+    "moduleId": "PeakFlow",
+    "status": "DISABLED",
+    "order": 1,
+    "configBody": {},
+    "about": "Peak Flow allows you to measure and record your peak expiratory flow rate (PEFR) easily. Regular monitoring helps you track your lung function, detect early signs of an asthma flare-up, and adjust your treatment plan accordingly.The Peak Flow module allows you to measure and record your peak expiratory flow rate (PEFR) easily. Regular monitoring helps you track your lung function, detect early signs of an asthma flare-up, and adjust your treatment plan accordingly.",
+    "footnote": {
+        "enabled": true,
+        "text": "If you think you may be experiencing a medical emergency, call your doctor or the emergency services immediately."
+    },
+    "schedule": {
+        "isoDuration": "P1D",
+        "timesPerDuration": 1,
+        "timesOfDay": []
+    },
+    "ragThresholds": [
+        {
+            "type": "VALUE",
+            "severity": 3,
+            "thresholdRange": [
+                {
+                    "maxValue": 49.9
+                }
+            ],
+            "color": "#FBCCD7",
+            "fieldName": "value",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 2,
+            "thresholdRange": [
+                {
+                    "minValue": 50.0,
+                    "maxValue": 79.9
+                }
+            ],
+            "color": "#FFDA9F",
+            "fieldName": "value",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 1,
+            "thresholdRange": [
+                {
+                    "minValue": 80.0,
+                    "maxValue": 100.0
+                }
+            ],
+            "color": "#CBEBF0",
+            "fieldName": "value",
+            "enabled": true
+        }
+    ],
+    "learnArticleIds": [],
+    "version": 28,
+    "notificationData": {
+        "title": "Reminder.default.title",
+        "body": "Reminder.default.body",
+        "offline": false
+    },
+    "goalEnabled": false,
+    "feedback": {
+        "enabled": true,
+        "upperBound": 100,
+        "lowerBound": 0,
+        "feedbacks": [
+            {
+                "rag": [
+                    "GREEN",
+                    "AMBER"
+                ],
+                "texts": [
+                    {
+                        "id": "6554b6ea209a8a17cd6186a1",
+                        "text": "<b>Monitor your peak flow regularly</b>\nIt checks how fast you can blow air out. A lower reading may mean narrowing airways.\n\n<b>Know how to spot flare-ups</b>\nA lower peak flow reading can warn you of a possible flare-up, sometimes even before symptoms show up. This helps you to get early treatment to prevent attacks."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186a2",
+                        "text": "<b>Stand tall, breathe right!</b>\nStand up straight or sit while taking peak flow measurements. Proper posture helps to expand your lungs. This gets you reliable peak flow readings.\n\n<b>Breathe like a pro</b>\nTake the deepest breath you can. Then blow into the peak flow meter with a quick, forceful breath for an accurate reading."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186a3",
+                        "text": "<b>Steer clear of sulfites</b>\nKeep away from foods containing sulfites, a preservative linked to triggers. Sulfite sources include wine, dried fruit, pickles, shrimp, condiments, asparagus, onions, corn starch, and soy.\n\n<b>Get peaceful sleep</b>\nRaise your head slightly to prevent mucus from triggering nighttime coughing."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186a4",
+                        "text": "<b>Power up your routine</b>\nPlace your inhaler somewhere visible. From today on, sync your inhaler intake with daily rituals such as brushing your teeth, mealtime, or bedtime.\n\n<b>Did you know?</b>\nReliever inhalers cannot replace controller meds. Relievers provide quick relief, but controllers are essential for daily condition management."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186a5",
+                        "text": "<b>Put your best breath forward</b>\nAvoid coughing or hesitating when measuring your peak flow. A smooth, uninterrupted breath ensures the most accurate peak flow reading.\n\n<b>Rise and hydrate</b>\nKickstart your day with a glass of water. Staying hydrated supports mucus movement that can prevent infections."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186a6",
+                        "text": "<b>Request an inhaler technique check</b>\nRequest a thorough inhaler technique assessment during your appointment. Checking how you use your inhaler allows your provider to correct any errors.\n\n<b>Test at the same time</b>\nPeak flow can vary at different times of the day, so measure it at consistent times. A slightly lower morning score is considered normal."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186a7",
+                        "text": "<b>Stand or sit up straight when taking your inhaler</b>\nThis allows you to fully breathe in and out.\n\n<b>Improve your inhaler technique</b>\nIf you use metered dose inhalers, wait 30 to 60 seconds before the next puff, allowing the medicine and propellant to mix effectively."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186a8",
+                        "text": "<b>Sip, sip, sip!</b>\nKeep a water bottle nearby and sip water throughout the day. Hydration keeps your airways moist and can help with keeping your phlegm moving.\n\n<b>Prioritise sleep quality</b>\nTo help reduce nighttime symptoms, lift your head with pillows to reduce chest pressure, making breathing smoother for lung conditions."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186a9",
+                        "text": "<b>Stick to your controller meds</b>\nInhaled corticosteroids reduce airway inflammation and constriction, whereby regular use over months yields the best results.\n\n<b>Did you know?</b>\nControllers are designed to target the chronic inflammation in your airways. By regularly taking them, you can effectively improve your symptoms."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186d1",
+                        "text": "<b>Enhance inhaler performance</b>\nGently lift your chin before inhaling to ensure the medicine is reaching your lungs more efficiently.\n\n<b>Exhale fully</b>\nBefore using your inhaler, breathe out completely to empty your lungs, creating space for the medication to enter."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186d2",
+                        "text": "<b>Enhance with Omega-3</b>\nOpt for a healthy diet featuring fish and Omega-3 sources, which can exert an anti-inflammatory impact, possibly thwarting flare-ups.\n\n<b>Boost your diet</b>\nIncorporate fruits and vegetables rich in antioxidants such as vitamins C, E, and flavonoids, which possess anti-inflammatory properties potentially beneficial for improving symptoms."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186d3",
+                        "text": "<b>Consistency equals control</b>\nDon't skip your controller medication \u2013 it gradually shields against severe attacks, inflammation, and persistent symptoms in the long run.\n\n<b>Did you know?</b>\nControllers typically take a few days to weeks to reach their full effect. Don't be discouraged if you don't notice immediate changes."
+                    },
+                    {
+                        "id": "6554b6ea209a8a17cd6186d4",
+                        "text": "<b>Nourish wisely</b>\nAddress potential vitamin D deficiency by checking with your doctor and maintaining adequate levels through supplements and sunlight exposure to alleviate symptoms.\n\n<b>Don't forget your controller meds</b>\nEven when you feel okay - take your controller meds as prescribed. This will mean fewer rescue inhaler moments and protection of your airways from inflammation."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186d5",
+                        "text": "<b>Gradually integrate exercises</b>\nStart with gentle options like yoga to improve breathing, aerobic fitness classes, or swimming if chemicals in the water aren't a trigger for you.\n\n<b>Exercise wisely</b>\nPrioritise a 15-20 minute warm-up before and a warm-down after exercising, while ensuring consistent hydration throughout activity."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186d6",
+                        "text": "<b>Check your inhaler technique</b>\nInhaling too early fills your lungs before all the medicine is in, causing some to stick to your mouth or throat instead of reaching your lungs.\n\n<b>Rinse after steroid inhaler</b>\nClear any residue from your mouth to prevent side effects like oral thrush."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186d7",
+                        "text": "<b>Love your linens</b>\nWash bedding and pillowcases regularly in hot water (130\u00b0 F) to bid farewell to dust mites.\n\n<b>Mind the humidity</b>\nKeep humidity levels between 30-50% to deter mold growth and dust mites. Use a dehumidifier in damp areas and ensure proper ventilation to minimize triggers."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186d8",
+                        "text": "<b>Engage in physical activity</b>\nPrioritise a 15-20 minute warm-up before exercising and include a proper warm-down routine if you think exercise could trigger symptoms.\n\n<b>Know when to stop exercising</b>\nIf you notice symptoms such as shortness of breath or wheezing, pause, use your reliever inhaler, wait 5 minutes until you're symptom-free. If symptoms persist, stop and follow your emergency plan."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186d9",
+                        "text": "<b>Optimise nutrition</b>\nChoose a balanced diet with fresh fruits, vegetables, and oily fish to aid symptoms, while avoiding processed foods, salt, and saturated fat.\n\n<b>Stay active and safe</b>\nYour condition can trigger symptoms; in such cases, using your reliever inhaler 15-30 minutes before warm-up can help."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186e1",
+                        "text": "<b>Stay prepared</b>\nDuring cold weather exercise, consider wrapping a scarf around your mouth and nose to warm and humidify the air entering your lungs.\n\n<b>Plunge into action</b>\nConsider swimming; it builds respiratory muscle strength, and is suitable for patients with respiratory issues due to the warm humid air of indoor pools. But only if chemicals in the water aren't a trigger for you!"
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186e2",
+                        "text": "<b>Check your inhaler technique</b>\nAlways breathe out fully before using your inhaler to ensure the medication reaches deeper in your lungs.\n\n<b>Breathe and hold</b>\nIf your care team has advised you to hold your breath after using your inhaler, aim to do for 10 seconds to help the medicine settle in the lungs."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186e3",
+                        "text": "<b>Inhaler alert</b>\nKeep your inhaler near your keys or bedside table to ensure it's part of your daily routine.\n\n<b>Recognise flare-ups early on</b>\nLook out for an itchy throat, increased coughing, runny nose, which may be early signs of a flare-up."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186e4",
+                        "text": "<b>Request a clear adjustment plan</b>\nIn your follow-up appointment, clarify how you will step up or down medications based on your peak flow data and symptoms.\n\n<b>Breath of empowerment</b>\nSlight changes in peak flow can be normal - keep tracking it regularly to learn more about your condition. You have the strength to face your condition head-on!"
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186e5",
+                        "text": "<b>Trial period for new medications</b>\nDiscuss the option of a trial period when starting a new medication to assess its effectiveness and any potential side effects before committing to long-term use.\n\n<b>Acknowledge every achievement</b>\nCelebrate every milestone, no matter how small. Even small improvements in peak flow can indicate better condition management."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186e6",
+                        "text": "<b>Protect yourself</b>\nProtect yourself against severe attacks and inflammation by taking your controller medication daily as prescribed, even when symptoms are absent.\n\n<b>Did you know?</b>\nController meds are not fast-acting like rescue inhalers, but their consistent use helps to maintain symptom control."
+                    },
+                    {
+                        "id": "6554b6ea209a8a17cd6186e7",
+                        "text": "<b>Maintain a clean environment</b>\nCommon aggravating factors that can intensify symptoms are, for example, dust, mold, mildew.\n\n<b>Think of hidden allergens</b>\nStay alert to sneaky culprits like dust mites in bedding, pet dander on furniture, and mold in damp spots."
+                    },
+                    {
+                        "id": "6554b729209a8a17cd6186e8",
+                        "text": "<b>Choose cleaning products wisely</b>\nOpt for unscented and low-VOC (volatile organic compound) cleaning products to reduce potential respiratory irritants.\n\n<b>Pet dander management</b>\nIf you have pets, designate pet-free zones in your home, and remove carpets to reduce pet dander exposure."
+                    }
+                ]
+            },
+            {
+                "rag": [
+                    "RED"
+                ],
+                "texts": [
+                    {
+                        "id": "6554b6ea209a8a17cd6186e9",
+                        "text": "<b>Closely observe your symptoms</b>\nThis reading might be abnormal for you. If you\u2019re having any symptoms, go to Symptoms in your Track section to report them.\n\n<b>Recognise attacks early on</b>\nLook out for an itchy throat, coughing, wheezing and shortness of breath which may be early signs of a flare-up. If you expect an attack, call emergency services."
+                    }
+                ]
+            }
+        ]
+    }
+}

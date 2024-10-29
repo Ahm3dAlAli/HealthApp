@@ -1,0 +1,13 @@
+{
+    "order": 3,
+    "screenId": "health-coach",
+    "name": "Health Coach",
+    "type": "GENERAL",
+    "description": "Allows for real time connection to an AI brain health coach to help you ",
+    "icon": "CHAT",
+    "status": "ENABLED",
+    "background": {
+        "value": "#f5f5f5",
+        "type": "COLOR"
+    }
+}

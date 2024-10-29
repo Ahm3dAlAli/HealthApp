@@ -1,0 +1,12 @@
+{
+    "order": 6,
+    "enabled": true,
+    "config": {
+        "title": "Featured articles",
+        "query": "limit(unread(articles), 2)",
+        "size": "SMALL",
+        "tags": [],
+        "sort": "NEWEST"
+    },
+    "type": "com.huma.widget.featuredArticles"
+}

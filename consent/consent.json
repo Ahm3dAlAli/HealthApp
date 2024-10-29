@@ -1,0 +1,27 @@
+{
+    "enabled": "ENABLED",
+    "revision": 6,
+    "sections": [
+        {
+            "type": "OVERVIEW",
+            "title": "Overview",
+            "details": "Here at Huma, we take the protection of your data very seriously. As part of your participation in the programme, your personal information, including your health data, may be processed as follows:<p></p><ul><li>On behalf of your healthcare team;</li><li>To ensure the continued operation and safety of the Huma application and platform in accordance with legal requirements; and/or,</li><li>To ensure the technical and functional performance of the Huma app</li></ul>Please check the boxes below to confirm both that you have read and understood Huma's Privacy Policy and Terms and Conditions."
+        },
+        {
+            "type": "PRIVACY",
+            "title": "Privacy",
+            "options": [
+                {
+                    "type": 0,
+                    "text": "I concent to Huma's <a href=\"https://storage.googleapis.com/hu-deployment-static-content/legal/privacy/en-US.pdf\">Notice of Privacy Policy</a>.",
+                    "order": 0
+                },
+                {
+                    "type": 1,
+                    "text": "I agree to the <a href=\"https://storage.googleapis.com/hu-deployment-static-content/legal/license-agreement/en-US.pdf\">Terms & Conditions</a>.",
+                    "order": 1
+                }
+            ]
+        }
+    ]
+}

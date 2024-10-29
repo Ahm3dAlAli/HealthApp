@@ -1,0 +1,31 @@
+{
+    "moduleId": "PerceivedStressScale",
+    "moduleName": "",
+    "status": "ENABLED",
+    "order": 21,
+    "configBody": {
+        "id": "pss_configbody",
+        "isForManager": false,
+        "publisherName": "SK",
+        "questionnaireName": "hu_pss_name",
+        "name": "hu_pss_name",
+        "maxScore": 40,
+        "calculatedQuestionnaire": true,
+        "questionnaireId": "pss_module",
+        "pages": []
+    },
+    "about": "The Perceived Stress Scale (PSS) is a classic stress assessment instrument. The questions in this scale ask about your feelings and thoughts during the last month. In each case, you will be asked to indicate how often you felt or thought a certain way.",
+    "schedule": {
+        "timesPerDuration": 0,
+        "friendlyText": "AS NEEDED",
+        "timesOfDay": []
+    },
+    "ragThresholds": [],
+    "version": 1,
+    "notificationData": {
+        "title": "Perceived Stress Scale (PSS)",
+        "body": "It is time to complete Perceived Stress Scale (PSS) questionnaire",
+        "offline": false
+    },
+    "localizationPrefix": "hu_pss_"
+}

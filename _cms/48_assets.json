@@ -1,0 +1,16 @@
+{
+    "status": "PUBLISHED",
+    "data": {
+        "title": "Asthma.png",
+        "assetId": {
+            "temp_key": "_cms/assets/670f6c2a79c3be40f8670418.png",
+            "old_file_id_storage": "old#670f6c2a79c3be40f8670418",
+            "key": "files/user/670d7924c575e4433e972508/670f6c2a79c3be40f8670418.png"
+        },
+        "assetType": "IMAGE",
+        "folder": "/"
+    },
+    "schema": "assets",
+    "tags": [],
+    "old_id": "old#670f6c2c79c3be40f8670463"
+}

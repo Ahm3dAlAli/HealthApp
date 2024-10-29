@@ -1,0 +1,20 @@
+{
+    "moduleId": "AirQuality",
+    "moduleName": "",
+    "status": "DISABLED",
+    "order": 20,
+    "configBody": {},
+    "about": "This module tracks the ambient air quality around you and to minimise your exposure to outdoor air pollution. It provides near real-time, street-level air quality & pollen data. It offers user-friendly air quality based health recommendations, helps you plan your day with 5 hours forecast or check the real-time global air quality map",
+    "schedule": {
+        "timesPerDuration": 0,
+        "friendlyText": "AS NEEDED",
+        "timesOfDay": []
+    },
+    "ragThresholds": [],
+    "version": 27,
+    "notificationData": {
+        "title": "Air quality",
+        "body": "Time to measure air quality",
+        "offline": false
+    }
+}

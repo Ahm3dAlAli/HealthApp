@@ -1,0 +1,3 @@
+deployment.json
+.serviceInfo.json
+.checksum.json

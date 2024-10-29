@@ -1,0 +1,11 @@
+{
+    "onboardingId": "USConsent",
+    "status": "ENABLED",
+    "configBody": {},
+    "order": 0,
+    "version": 0,
+    "versionString": "0.1",
+    "userTypes": [
+        "User"
+    ]
+}

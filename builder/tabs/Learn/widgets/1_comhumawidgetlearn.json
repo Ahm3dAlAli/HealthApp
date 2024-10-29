@@ -1,0 +1,80 @@
+{
+    "order": 1,
+    "enabled": true,
+    "config": {
+        "title": "Featured articles",
+        "description": "Learn more about your condition",
+        "sections": [
+            {
+                "title": "Understanding Your Brain",
+                "size": "SMALL",
+                "tags": [],
+                "cmsArticleIds": [
+                    "670f6c2c79c3be40f8670458",
+                    "670f6c2c79c3be40f8670449",
+                    "670f6c2c79c3be40f867045f"
+                ],
+                "sort": "NEWEST",
+                "id": "458bddc0-931f-40ee-a701-d77ef5e1fdd0"
+            },
+            {
+                "title": "Take Control ",
+                "size": "SMALL",
+                "tags": [],
+                "cmsArticleIds": [
+                    "670f6c2b79c3be40f8670431",
+                    "670f6c2b79c3be40f8670425",
+                    "670f6c2b79c3be40f8670427",
+                    "670f6c2c79c3be40f867044a",
+                    "670f6c2a79c3be40f8670421",
+                    "670f6c2a79c3be40f867041f"
+                ],
+                "sort": "NEWEST",
+                "id": "81dcf776-02a7-4849-8509-d61ad4c483ad"
+            },
+            {
+                "title": "Mental Wellbeing",
+                "size": "SMALL",
+                "tags": [],
+                "cmsArticleIds": [
+                    "670f6c2b79c3be40f8670429",
+                    "670f6c2c79c3be40f8670457",
+                    "670f6c2c79c3be40f867043c",
+                    "670f6c2c79c3be40f8670461",
+                    "670f6c2b79c3be40f867042b",
+                    "670f6c2c79c3be40f867045b"
+                ],
+                "sort": "NEWEST",
+                "id": "b41abf40-bac7-4826-8f30-1f28156212d9"
+            },
+            {
+                "title": "Cognitive Performance",
+                "size": "SMALL",
+                "tags": [],
+                "cmsArticleIds": [
+                    "670f6c2c79c3be40f867045d",
+                    "670f6c2b79c3be40f867042f",
+                    "670f6c2b79c3be40f8670435",
+                    "670f6c2a79c3be40f867041d"
+                ],
+                "sort": "NEWEST",
+                "id": "1478a867-b59f-4bf3-aec6-08b9f9fe8385"
+            },
+            {
+                "title": "Brain Longevity",
+                "size": "SMALL",
+                "tags": [],
+                "cmsArticleIds": [
+                    "670f6c2c79c3be40f8670459",
+                    "670f6c2c79c3be40f8670462",
+                    "670f6c2c79c3be40f867044c",
+                    "670f6c2c79c3be40f8670446",
+                    "670f6c2b79c3be40f8670433"
+                ],
+                "sort": "NEWEST",
+                "id": "d63fa55c-f261-4c21-bdb4-0ed45772a080"
+            }
+        ]
+    },
+    "type": "com.huma.widget.learn"
+}

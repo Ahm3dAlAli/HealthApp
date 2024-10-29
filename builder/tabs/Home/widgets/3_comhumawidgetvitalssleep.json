@@ -1,0 +1,15 @@
+{
+    "order": 3,
+    "enabled": true,
+    "config": {
+        "moduleId": "Sleep",
+        "moduleConfigId": "19_Sleep",
+        "card": {
+            "showAlert": true,
+            "showGraph": true,
+            "showSeen": true,
+            "chartType": "BAR"
+        }
+    },
+    "type": "com.huma.widget.vitals.sleep"
+}

@@ -1,0 +1,16 @@
+{
+    "status": "PUBLISHED",
+    "data": {
+        "title": "Asthma control",
+        "thumbnail": {
+            "temp_key": "_cms/assets/670f6c2b79c3be40f867042e.png",
+            "old_file_id_storage": "old#670f6c2b79c3be40f867042e",
+            "key": "files/user/670d7924c575e4433e972508/670f6c2b79c3be40f867042e.png"
+        },
+        "articleType": "External URL",
+        "externalURL": "https://ui-content.internal.huma.com/article/asthma-control"
+    },
+    "schema": "articles",
+    "tags": [],
+    "old_id": "old#670f6c2b79c3be40f867042f"
+}

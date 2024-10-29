@@ -1,0 +1,15 @@
+{
+    "order": 5,
+    "enabled": true,
+    "config": {
+        "moduleId": "PerceivedStressScale",
+        "moduleConfigId": "21_PerceivedStressScale",
+        "card": {
+            "showAlert": false,
+            "showGraph": true,
+            "showSeen": true,
+            "chartType": "LINE"
+        }
+    },
+    "type": "com.huma.widget.epro.pss"
+}

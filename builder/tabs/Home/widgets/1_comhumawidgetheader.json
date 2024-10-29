@@ -1,0 +1,15 @@
+{
+    "order": 1,
+    "enabled": true,
+    "config": {
+        "title": "Connectome",
+        "subtitle": "Track, manage, and improve your brain health effortlessly",
+        "showLogo": true,
+        "icon": {
+            "temp_key": "builder/assets/67189383d919d964549d86d4.jpg",
+            "old_file_id_storage": "old#67189383d919d964549d86d4",
+            "key": "files/user/670d7924c575e4433e972508/67189383d919d964549d86d4.jpg"
+        }
+    },
+    "type": "com.huma.widget.header"
+}

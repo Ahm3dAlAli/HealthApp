@@ -1,0 +1,9 @@
+{
+    "order": 7,
+    "enabled": true,
+    "config": {
+        "title": "Reminders",
+        "maxItemsCount": 2
+    },
+    "type": "com.huma.widget.reminder"
+}

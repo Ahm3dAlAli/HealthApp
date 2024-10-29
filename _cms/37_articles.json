@@ -1,0 +1,16 @@
+{
+    "status": "PUBLISHED",
+    "data": {
+        "title": "Quick relief medicines",
+        "thumbnail": {
+            "temp_key": "_cms/assets/670f6c2c79c3be40f8670456.png",
+            "old_file_id_storage": "old#670f6c2c79c3be40f8670456",
+            "key": "files/user/670d7924c575e4433e972508/670f6c2c79c3be40f8670456.png"
+        },
+        "articleType": "External URL",
+        "externalURL": "https://ui-content.internal.huma.com/article/quick-relief-medicines"
+    },
+    "schema": "articles",
+    "tags": [],
+    "old_id": "old#670f6c2c79c3be40f8670457"
+}

@@ -1,0 +1,9 @@
+{
+    "order": 1,
+    "enabled": true,
+    "config": {
+        "title": "My Vitals",
+        "showLogo": false
+    },
+    "type": "com.huma.widget.header"
+}

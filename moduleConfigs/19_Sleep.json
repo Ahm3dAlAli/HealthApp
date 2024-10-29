@@ -1,0 +1,24 @@
+{
+    "moduleId": "Sleep",
+    "moduleName": "Sleep",
+    "status": "ENABLED",
+    "order": 19,
+    "configBody": {
+        "dataSource": {
+            "fitbitCollection": true
+        }
+    },
+    "about": "",
+    "schedule": {
+        "timesPerDuration": 0,
+        "friendlyText": "AS NEEDED",
+        "timesOfDay": []
+    },
+    "ragThresholds": [],
+    "version": 1,
+    "notificationData": {
+        "title": "Reminder.default.title",
+        "body": "Reminder.default.body",
+        "offline": false
+    }
+}

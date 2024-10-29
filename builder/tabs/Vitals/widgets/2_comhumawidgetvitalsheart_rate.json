@@ -1,0 +1,15 @@
+{
+    "order": 2,
+    "enabled": true,
+    "config": {
+        "moduleId": "HeartRate",
+        "moduleConfigId": "5_HeartRate",
+        "card": {
+            "showAlert": true,
+            "showGraph": true,
+            "showSeen": true,
+            "chartType": "CANDLE"
+        }
+    },
+    "type": "com.huma.widget.vitals.heart_rate"
+}

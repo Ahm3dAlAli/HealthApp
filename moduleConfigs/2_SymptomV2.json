@@ -1,0 +1,650 @@
+{
+    "moduleId": "SymptomV2",
+    "status": "DISABLED",
+    "order": 2,
+    "configBody": {
+        "complexSymptoms": [
+            {
+                "name": "shortness of breath",
+                "scale": [
+                    {
+                        "severity": 1,
+                        "value": "Mild"
+                    },
+                    {
+                        "severity": 2,
+                        "value": "Moderate"
+                    },
+                    {
+                        "severity": 3,
+                        "value": "Severe"
+                    }
+                ],
+                "enabled": true,
+                "followUpQuestionIds": [
+                    "547436fd-4296-4a79-b620-d8be7717d24e"
+                ],
+                "scaleUpdateDateTime": "2024-07-04T23:12:40.694861Z"
+            },
+            {
+                "name": "wheezing",
+                "scale": [
+                    {
+                        "severity": 1,
+                        "value": "Mild"
+                    },
+                    {
+                        "severity": 2,
+                        "value": "Moderate"
+                    },
+                    {
+                        "severity": 3,
+                        "value": "Severe"
+                    }
+                ],
+                "enabled": true,
+                "followUpQuestionIds": [
+                    "9ca87f6e-8375-4840-a669-c165993d148d"
+                ],
+                "scaleUpdateDateTime": "2024-07-04T23:12:40.694861Z"
+            },
+            {
+                "name": "cough",
+                "scale": [
+                    {
+                        "severity": 1,
+                        "value": "Mild"
+                    },
+                    {
+                        "severity": 2,
+                        "value": "Moderate"
+                    },
+                    {
+                        "severity": 3,
+                        "value": "Severe"
+                    }
+                ],
+                "enabled": true,
+                "followUpQuestionIds": [
+                    "5f95745d-cd38-4c99-a1a1-919b016bd498",
+                    "4cfa64f6-f532-4074-a149-55270dd5eda6"
+                ],
+                "scaleUpdateDateTime": "2024-07-04T23:12:40.694861Z"
+            },
+            {
+                "name": "chest pain/tightness",
+                "scale": [
+                    {
+                        "severity": 1,
+                        "value": "Mild"
+                    },
+                    {
+                        "severity": 2,
+                        "value": "Moderate"
+                    },
+                    {
+                        "severity": 3,
+                        "value": "Severe"
+                    }
+                ],
+                "enabled": true,
+                "followUpQuestionIds": [
+                    "593a3140-ece9-4cf8-b163-b7d23c41de0f",
+                    "071c65d6-5652-4e80-875b-695a41efca92",
+                    "b529630a-ef75-41ff-8ebc-15b298294b0a"
+                ],
+                "scaleUpdateDateTime": "2024-07-04T23:12:40.694861Z"
+            },
+            {
+                "name": "sleep disturbance due to asthma",
+                "scale": [
+                    {
+                        "severity": 1,
+                        "value": "Mild"
+                    },
+                    {
+                        "severity": 2,
+                        "value": "Moderate"
+                    },
+                    {
+                        "severity": 3,
+                        "value": "Severe"
+                    }
+                ],
+                "enabled": true,
+                "followUpQuestionIds": [
+                    "4847ceec-770b-4dcf-9c4f-26315f0c02a2"
+                ],
+                "scaleUpdateDateTime": "2024-07-04T23:12:40.694861Z"
+            }
+        ],
+        "followUpQuestionIds": [
+            "86374c69-84a7-4768-8d57-3d79aaa5224f"
+        ],
+        "pages": [
+            {
+                "items": [
+                    {
+                        "description": "",
+                        "format": "TEXTCHOICE",
+                        "id": "547436fd-4296-4a79-b620-d8be7717d24e",
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "options": [
+                            {
+                                "label": "More than once a day",
+                                "value": "1"
+                            },
+                            {
+                                "label": "Once a day",
+                                "value": "2"
+                            },
+                            {
+                                "label": "3-6 times a week",
+                                "value": "3"
+                            },
+                            {
+                                "label": "1-2 times a week",
+                                "value": "4"
+                            }
+                        ],
+                        "order": 1,
+                        "required": true,
+                        "selectionCriteria": "SINGLE",
+                        "text": "How often have you had shortness of breath?",
+                        "type": "TEXTCHOICE",
+                        "showIfNoSymptomsReported": false
+                    }
+                ],
+                "order": 1,
+                "type": "QUESTION"
+            },
+            {
+                "items": [
+                    {
+                        "description": "",
+                        "format": "TEXTCHOICE",
+                        "id": "9ca87f6e-8375-4840-a669-c165993d148d",
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "options": [
+                            {
+                                "label": "Only during physical activity or exercise",
+                                "value": "1"
+                            },
+                            {
+                                "label": "Mostly at night when lying down",
+                                "value": "2"
+                            },
+                            {
+                                "label": "Throughout the day with no specific pattern",
+                                "value": "3"
+                            },
+                            {
+                                "label": "Only after exposure to certain triggers",
+                                "value": "4"
+                            }
+                        ],
+                        "order": 2,
+                        "required": true,
+                        "selectionCriteria": "SINGLE",
+                        "text": "When do you experience wheezing?",
+                        "type": "TEXTCHOICE",
+                        "showIfNoSymptomsReported": false
+                    }
+                ],
+                "order": 2,
+                "type": "QUESTION"
+            },
+            {
+                "items": [
+                    {
+                        "description": "",
+                        "format": "TEXTCHOICE",
+                        "id": "5f95745d-cd38-4c99-a1a1-919b016bd498",
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "options": [
+                            {
+                                "label": "Dry and ticklish",
+                                "value": "1"
+                            },
+                            {
+                                "label": "Wet and phlegmy",
+                                "value": "2"
+                            },
+                            {
+                                "label": "Producing clear or white mucus",
+                                "value": "3"
+                            },
+                            {
+                                "label": "Producing yellow or green mucus",
+                                "value": "4"
+                            },
+                            {
+                                "label": "Accompanied by wheezing or whistling sound",
+                                "value": "5"
+                            }
+                        ],
+                        "order": 3,
+                        "required": true,
+                        "selectionCriteria": "SINGLE",
+                        "text": "Can you describe what your cough is like?",
+                        "type": "TEXTCHOICE",
+                        "showIfNoSymptomsReported": false
+                    }
+                ],
+                "order": 3,
+                "type": "QUESTION"
+            },
+            {
+                "items": [
+                    {
+                        "description": "",
+                        "format": "TEXTCHOICE",
+                        "id": "4cfa64f6-f532-4074-a149-55270dd5eda6",
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "options": [
+                            {
+                                "label": "1-2 days",
+                                "value": "1"
+                            },
+                            {
+                                "label": "3-7 days",
+                                "value": "2"
+                            },
+                            {
+                                "label": "1-2 weeks",
+                                "value": "3"
+                            },
+                            {
+                                "label": "2-4 weeks",
+                                "value": "4"
+                            },
+                            {
+                                "label": "More than a month",
+                                "value": "5"
+                            }
+                        ],
+                        "order": 4,
+                        "required": true,
+                        "selectionCriteria": "SINGLE",
+                        "text": "How long have you had this cough?",
+                        "type": "TEXTCHOICE",
+                        "showIfNoSymptomsReported": false
+                    }
+                ],
+                "order": 4,
+                "type": "QUESTION"
+            },
+            {
+                "items": [
+                    {
+                        "description": "",
+                        "format": "TEXTCHOICE",
+                        "id": "593a3140-ece9-4cf8-b163-b7d23c41de0f",
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "options": [
+                            {
+                                "label": "Sharp, stabbing pain",
+                                "value": "1"
+                            },
+                            {
+                                "label": "Dull, constant ache",
+                                "value": "2"
+                            },
+                            {
+                                "label": "Tight, squeezing sensation",
+                                "value": "3"
+                            },
+                            {
+                                "label": "Burning, fiery pain",
+                                "value": "4"
+                            }
+                        ],
+                        "order": 5,
+                        "required": true,
+                        "selectionCriteria": "SINGLE",
+                        "text": "Can you describe the kind of chest pain you are experiencing?",
+                        "type": "TEXTCHOICE",
+                        "showIfNoSymptomsReported": false
+                    }
+                ],
+                "order": 5,
+                "type": "QUESTION"
+            },
+            {
+                "items": [
+                    {
+                        "description": "",
+                        "format": "TEXTCHOICE",
+                        "id": "071c65d6-5652-4e80-875b-695a41efca92",
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "options": [
+                            {
+                                "label": "Only during an asthma attack",
+                                "value": "1"
+                            },
+                            {
+                                "label": "Not associated with breathing difficulties",
+                                "value": "2"
+                            },
+                            {
+                                "label": "Comes on suddenly at rest",
+                                "value": "3"
+                            },
+                            {
+                                "label": "Mainly at night",
+                                "value": "4"
+                            }
+                        ],
+                        "order": 6,
+                        "required": true,
+                        "selectionCriteria": "SINGLE",
+                        "text": "When do you experience this chest pain?",
+                        "type": "TEXTCHOICE",
+                        "showIfNoSymptomsReported": false
+                    }
+                ],
+                "order": 6,
+                "type": "QUESTION"
+            },
+            {
+                "items": [
+                    {
+                        "description": "",
+                        "format": "TEXTCHOICE",
+                        "id": "b529630a-ef75-41ff-8ebc-15b298294b0a",
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "options": [
+                            {
+                                "label": "Physical activity or exercise",
+                                "value": "1"
+                            },
+                            {
+                                "label": "Exposure to cold air or weather",
+                                "value": "2"
+                            },
+                            {
+                                "label": "Stress or anxiety",
+                                "value": "3"
+                            },
+                            {
+                                "label": "After eating a meal",
+                                "value": "4"
+                            }
+                        ],
+                        "order": 7,
+                        "required": true,
+                        "selectionCriteria": "SINGLE",
+                        "text": "Does anything in particular seem to trigger or worsen this chest pain?",
+                        "type": "TEXTCHOICE",
+                        "showIfNoSymptomsReported": false
+                    }
+                ],
+                "order": 7,
+                "type": "QUESTION"
+            },
+            {
+                "items": [
+                    {
+                        "description": "",
+                        "format": "TEXTCHOICE",
+                        "id": "4847ceec-770b-4dcf-9c4f-26315f0c02a2",
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "options": [
+                            {
+                                "label": "Once a week",
+                                "value": "1"
+                            },
+                            {
+                                "label": "2 to 3 nights a week",
+                                "value": "2"
+                            },
+                            {
+                                "label": "4 or more nights a week",
+                                "value": "3"
+                            }
+                        ],
+                        "order": 8,
+                        "required": true,
+                        "selectionCriteria": "SINGLE",
+                        "text": "How often has your sleep been disturbed due to asthma in the last week?",
+                        "type": "TEXTCHOICE",
+                        "showIfNoSymptomsReported": false
+                    }
+                ],
+                "order": 8,
+                "type": "QUESTION"
+            },
+            {
+                "items": [
+                    {
+                        "description": "",
+                        "format": "TEXTCHOICE",
+                        "id": "86374c69-84a7-4768-8d57-3d79aaa5224f",
+                        "logic": {
+                            "isEnabled": false
+                        },
+                        "options": [
+                            {
+                                "label": "Animal Fur",
+                                "value": "1"
+                            },
+                            {
+                                "label": "Cigarette Smoke",
+                                "value": "2"
+                            },
+                            {
+                                "label": "Dust",
+                                "value": "3"
+                            },
+                            {
+                                "label": "Mold",
+                                "value": "4"
+                            },
+                            {
+                                "label": "Cosmetic Sprays",
+                                "value": "5"
+                            },
+                            {
+                                "label": "Pollen",
+                                "value": "6"
+                            },
+                            {
+                                "label": "Weather",
+                                "value": "7"
+                            },
+                            {
+                                "label": "Exercise",
+                                "value": "8"
+                            },
+                            {
+                                "label": "Cold/Flu",
+                                "value": "9"
+                            },
+                            {
+                                "label": "Work Related",
+                                "value": "10"
+                            },
+                            {
+                                "label": "Other",
+                                "value": "11"
+                            }
+                        ],
+                        "order": 9,
+                        "required": true,
+                        "selectionCriteria": "MULTIPLE",
+                        "text": "What do you think triggered your symptom(s)?",
+                        "type": "MULTICHOICE"
+                    }
+                ],
+                "order": 9,
+                "type": "QUESTION"
+            }
+        ]
+    },
+    "about": "Symptom Tracker helps you monitor and record your asthma symptoms daily. By keeping track of your breathing, cough, and any other issues, you can better understand your condition and manage your triggers effectively.",
+    "footnote": {
+        "enabled": true,
+        "text": "If you think you may be experiencing a medical emergency, call your doctor or the emergency services immediately."
+    },
+    "schedule": {
+        "isoDuration": "P1W",
+        "timesPerDuration": 1,
+        "timesOfDay": []
+    },
+    "ragThresholds": [
+        {
+            "type": "VALUE",
+            "severity": 2,
+            "thresholdRange": [
+                {
+                    "minValue": 1.0,
+                    "maxValue": 2.0
+                }
+            ],
+            "color": "#FFDA9F",
+            "fieldName": "shortness of breath",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 3,
+            "thresholdRange": [
+                {
+                    "minValue": 3.0,
+                    "maxValue": 3.0
+                }
+            ],
+            "color": "#FBCCD7",
+            "fieldName": "shortness of breath",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 2,
+            "thresholdRange": [
+                {
+                    "minValue": 1.0,
+                    "maxValue": 2.0
+                }
+            ],
+            "color": "#FFDA9F",
+            "fieldName": "wheezing",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 3,
+            "thresholdRange": [
+                {
+                    "minValue": 3.0,
+                    "maxValue": 3.0
+                }
+            ],
+            "color": "#FBCCD7",
+            "fieldName": "wheezing",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 2,
+            "thresholdRange": [
+                {
+                    "minValue": 1.0,
+                    "maxValue": 2.0
+                }
+            ],
+            "color": "#FFDA9F",
+            "fieldName": "cough",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 3,
+            "thresholdRange": [
+                {
+                    "minValue": 3.0,
+                    "maxValue": 3.0
+                }
+            ],
+            "color": "#FBCCD7",
+            "fieldName": "cough",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 2,
+            "thresholdRange": [
+                {
+                    "minValue": 1.0,
+                    "maxValue": 2.0
+                }
+            ],
+            "color": "#FFDA9F",
+            "fieldName": "chest pain/tightness",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 3,
+            "thresholdRange": [
+                {
+                    "minValue": 3.0,
+                    "maxValue": 3.0
+                }
+            ],
+            "color": "#FBCCD7",
+            "fieldName": "chest pain/tightness",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 2,
+            "thresholdRange": [
+                {
+                    "minValue": 1.0,
+                    "maxValue": 2.0
+                }
+            ],
+            "color": "#FFDA9F",
+            "fieldName": "sleep disturbance due to asthma",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 3,
+            "thresholdRange": [
+                {
+                    "minValue": 3.0,
+                    "maxValue": 3.0
+                }
+            ],
+            "color": "#FBCCD7",
+            "fieldName": "sleep disturbance due to asthma",
+            "enabled": true
+        }
+    ],
+    "learnArticleIds": [],
+    "version": 53,
+    "notificationData": {
+        "title": "Reminder.default.title",
+        "body": "Reminder.default.body",
+        "offline": false
+    },
+    "goalEnabled": false
+}

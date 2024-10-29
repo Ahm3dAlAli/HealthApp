@@ -1,0 +1,16 @@
+{
+    "order": 1,
+    "enabled": true,
+    "config": {
+        "name": "My health coach",
+        "coachName": "Neura",
+        "title": "Your AI health coach",
+        "description": "Neura is your brain health AI companion. She is equipped with the latest science about brain connectome and  information about your brain's fingerprint. \n\nNeura is here to help answer any questions you might have about your brain's health. Ask away!",
+        "avatarPhotoId": {
+            "temp_key": "builder/assets/67188a4ad919d964549d86b0.jpg",
+            "old_file_id_storage": "old#67188a4ad919d964549d86b0",
+            "key": "files/user/670d7924c575e4433e972508/67188a4ad919d964549d86b0.jpg"
+        }
+    },
+    "type": "com.huma.widget.health-coach"
+}

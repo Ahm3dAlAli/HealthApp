@@ -1,0 +1,12 @@
+{
+    "order": 1,
+    "name": "Home",
+    "type": "GENERAL",
+    "description": "All your key health information and tools to effectively manage your condition can be found in this tab",
+    "icon": "HOME",
+    "status": "ENABLED",
+    "background": {
+        "value": "#f5f5f5",
+        "type": "COLOR"
+    }
+}

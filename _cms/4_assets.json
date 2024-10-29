@@ -1,0 +1,15 @@
+{
+    "status": "PUBLISHED",
+    "data": {
+        "assetId": {
+            "temp_key": "_cms/assets/670f6c2a79c3be40f8670422.png",
+            "old_file_id_storage": "old#670f6c2a79c3be40f8670422",
+            "key": "files/user/670d7924c575e4433e972508/670f6c2a79c3be40f8670422.png"
+        },
+        "assetType": "IMAGE",
+        "title": "Image--300986--49accb19-920b-4556-bf2c-9c41221a68ac"
+    },
+    "schema": "assets",
+    "tags": [],
+    "old_id": "old#670f6c2b79c3be40f8670423"
+}

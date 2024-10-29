@@ -1,0 +1,15 @@
+{
+    "order": 4,
+    "enabled": true,
+    "config": {
+        "moduleId": "Step",
+        "moduleConfigId": "8_Step",
+        "card": {
+            "showAlert": true,
+            "showGraph": true,
+            "showSeen": true,
+            "chartType": "BAR"
+        }
+    },
+    "type": "com.huma.widget.vitals.step"
+}

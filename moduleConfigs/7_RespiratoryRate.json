@@ -1,0 +1,57 @@
+{
+    "moduleId": "RespiratoryRate",
+    "status": "ENABLED",
+    "order": 7,
+    "configBody": {
+        "dataSource": {
+            "fitbitCollection": true
+        }
+    },
+    "about": "The Respiratory Rate feature allows you to keep track of your breaths per minute. Monitoring your respiratory rate can help you detect changes in your breathing pattern, which can be crucial for managing your asthma effectively.",
+    "footnote": {
+        "enabled": true,
+        "text": "If you think you may be experiencing a medical emergency, call your doctor or the emergency services immediately."
+    },
+    "schedule": {
+        "timesPerDuration": 0,
+        "timesOfDay": []
+    },
+    "ragThresholds": [
+        {
+            "type": "VALUE",
+            "severity": 3,
+            "thresholdRange": [
+                {
+                    "maxValue": 11.0
+                },
+                {
+                    "minValue": 21.0
+                }
+            ],
+            "color": "#FBCCD7",
+            "fieldName": "value",
+            "enabled": true
+        },
+        {
+            "type": "VALUE",
+            "severity": 1,
+            "thresholdRange": [
+                {
+                    "minValue": 12.0,
+                    "maxValue": 20.0
+                }
+            ],
+            "color": "#CBEBF0",
+            "fieldName": "value",
+            "enabled": true
+        }
+    ],
+    "learnArticleIds": [],
+    "version": 5,
+    "notificationData": {
+        "title": "Reminder.default.title",
+        "body": "Reminder.default.body",
+        "offline": false
+    },
+    "goalEnabled": false
+}

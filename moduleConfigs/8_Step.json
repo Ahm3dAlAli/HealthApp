@@ -1,0 +1,28 @@
+{
+    "moduleId": "Step",
+    "status": "ENABLED",
+    "order": 8,
+    "configBody": {
+        "dataSource": {
+            "fitbitCollection": true
+        }
+    },
+    "about": "Keeping active is a great way to improve your health. The recommended level of physical activity is to achieve at least 10,000 steps a day. By making small sustainable adjustments to your daily routine (e.g. taking the stairs instead of the lift, walk for short journeys etc.) you can easily add to your daily step count. You can automatically keep track of your progress using this feature.",
+    "footnote": {
+        "enabled": true,
+        "text": "If you think you may be experiencing a medical emergency, call your doctor or the emergency services immediately."
+    },
+    "schedule": {
+        "friendlyText": "friendlyText",
+        "timesOfDay": []
+    },
+    "ragThresholds": [],
+    "learnArticleIds": [],
+    "version": 0,
+    "notificationData": {
+        "title": "Reminder.default.title",
+        "body": "Reminder.default.body",
+        "offline": false
+    },
+    "goalEnabled": false
+}

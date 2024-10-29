@@ -1,0 +1,12 @@
+{
+    "order": 5,
+    "name": "Profile",
+    "type": "GENERAL",
+    "description": "Profiles section contains your account info and various other useful features such as document upload, changing units, appointments, pdf downloads and more..",
+    "icon": "PROFILE",
+    "status": "ENABLED",
+    "background": {
+        "value": "#f5f5f5",
+        "type": "COLOR"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "order": 2,
+    "name": "Vitals",
+    "type": "GENERAL",
+    "description": "All your key vital signs can be found in this tab for you to easily monitor and track your health",
+    "icon": "TRACK",
+    "status": "ENABLED",
+    "background": {
+        "value": "#f5f5f5",
+        "type": "COLOR"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "order": 1,
+    "enabled": true,
+    "config": {
+        "body": [
+            {
+                "type": "APPOINTMENTS"
+            },
+            {
+                "type": "APP_LOCK"
+            }
+        ]
+    },
+    "type": "com.huma.widget.profile"
+}

@@ -1,0 +1,28 @@
+{
+    "order": 2,
+    "enabled": true,
+    "config": {
+        "title": "Complete onboarding",
+        "sections": [
+            {
+                "title": "Sign up to Connectome",
+                "type": "SIGNUP",
+                "order": 1,
+                "mandatory": true
+            },
+            {
+                "title": "Sign your consent",
+                "type": "CONSENT",
+                "order": 2,
+                "mandatory": true
+            },
+            {
+                "title": "Complete your profile",
+                "type": "PROFILE",
+                "order": 3,
+                "mandatory": true
+            }
+        ]
+    },
+    "type": "com.huma.widget.welcome"
+}

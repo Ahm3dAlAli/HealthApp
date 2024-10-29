@@ -1,0 +1,41 @@
+{
+    "moduleId": "AsthmaControlTest",
+    "moduleName": "",
+    "status": "DISABLED",
+    "order": 18,
+    "configBody": {
+        "calculatedQuestionnaire": true,
+        "maxScore": 25,
+        "filledBy": "User",
+        "isForManager": false,
+        "isHorizontal": false,
+        "isOnboarding": false,
+        "questionnaireName": "Asthma Control Test",
+        "name": "Asthma Control Test (ACT)",
+        "pages": [],
+        "publisherName": "OJ",
+        "scoreAvailable": true,
+        "submissionPage": {
+            "buttonText": "Submit",
+            "description": "Scroll up to change any of your answers. Changing answers may add new questions.",
+            "id": "hu_act_submission",
+            "order": 7,
+            "text": "You've completed the questionnaire.",
+            "type": "SUBMISSION"
+        }
+    },
+    "about": "A Simple Test to Help Manage Your Asthma.<br><br>The Asthma control Test is a commonly used tool by healthcare providers globally, and has been scientifically tested with hundreds of people with asthma.",
+    "schedule": {
+        "isoDuration": "P1D",
+        "timesPerDuration": 1,
+        "friendlyText": "AS NEEDED",
+        "timesOfDay": []
+    },
+    "ragThresholds": [],
+    "version": 26,
+    "notificationData": {
+        "title": "Reminder.default.title",
+        "body": "Reminder.default.body",
+        "offline": false
+    }
+}

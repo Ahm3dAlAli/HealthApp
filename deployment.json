@@ -1,0 +1,261 @@
+{
+    "termAndConditionUrl": "https://storage.googleapis.com/hu-deployment-static-content/legal/license-agreement/en-US.pdf",
+    "privacyPolicyUrl": "https://storage.googleapis.com/hu-deployment-static-content/legal/privacy/en-US.pdf",
+    "eulaUrl": "https://storage.googleapis.com/hu-deployment-static-content/legal/license-agreement/en-US.pdf",
+    "privacyPolicyObject": {
+        "bucket": "",
+        "key": "",
+        "region": ""
+    },
+    "termAndConditionObject": {
+        "bucket": "",
+        "key": "",
+        "region": ""
+    },
+    "eulaObject": {
+        "bucket": "",
+        "key": "",
+        "region": ""
+    },
+    "name": "Asthma Solution",
+    "description": "The Asthma Solution template is designed to empower individuals with asthma to take control of their condition through comprehensive disease-management tools. It offers a user-friendly way to track symptoms, medications, vital signs and validated ePROs for assessing disease control, while providing access to curated educational content to enhance understanding and management of asthma. \nThis template is ideal for individuals with asthma looking to actively manage their health, as well as healthcare providers seeking to offer comprehensive support and remote monitoring for their patients.",
+    "status": "DRAFT",
+    "icon": {
+        "temp_key": "assets/--18799--Huma_Symbol_Black.png",
+        "bucket": "hu-gcpukprd-workspace-bk",
+        "key": "deployment/670f6c2a79c3be40f8670417/--18799--Huma_Symbol_Black.png",
+        "region": "eu"
+    },
+    "templateThumbnailFileId": {
+        "temp_key": "assets/670f6c2a79c3be40f8670418.png",
+        "old_file_id_storage": "old#670f6c2a79c3be40f8670418",
+        "key": "files/user/670d7924c575e4433e972508/670f6c2a79c3be40f8670418.png"
+    },
+    "descriptionUrl": "https://raw.githubusercontent.com/huma-engineering/deployment-template-docs/v1.0.0/docs/asthma.md",
+    "keyActionsEnabled": false,
+    "profile": {
+        "fields": {
+            "givenName": true,
+            "familyName": true,
+            "dateOfBirth": true,
+            "height": true,
+            "gender": true,
+            "biologicalSex": true,
+            "race": false,
+            "ethnicity": true,
+            "ethnicityOptions": [
+                {
+                    "displayName": "White",
+                    "value": "WHITE"
+                },
+                {
+                    "displayName": "Mixed / Multiple ethnic groups",
+                    "value": "MIXED_OR_MULTI_ETHNIC_GROUPS"
+                },
+                {
+                    "displayName": "Asian / Asian American",
+                    "value": "ASIAN_AMERICAN"
+                },
+                {
+                    "displayName": "Black / African",
+                    "value": "BLACK_AFRICAN"
+                },
+                {
+                    "displayName": "Hispanic",
+                    "value": "HISPANIC"
+                },
+                {
+                    "displayName": "Other ethnic groups",
+                    "value": "OTHER_ETHNIC_GROUPS"
+                }
+            ],
+            "additionalContactDetails": {
+                "altContactNumber": false,
+                "regularContactName": false,
+                "regularContactNumber": false,
+                "emergencyContactName": false,
+                "emergencyContactNumber": false,
+                "mandatoryFields": []
+            },
+            "mandatoryOnboardingFields": [
+                "dateOfBirth",
+                "biologicalSex",
+                "gender",
+                "ethnicity",
+                "height"
+            ],
+            "extraIds": {
+                "fenlandCohortId": false,
+                "nhsId": false,
+                "insuranceNumber": false,
+                "wechatId": false,
+                "aliveCorId": false,
+                "medicalRecordNumber": false,
+                "mandatoryOnboardingIds": []
+            },
+            "genderOptions": [
+                {
+                    "displayName": "Male",
+                    "value": "MALE"
+                },
+                {
+                    "displayName": "Female",
+                    "value": "FEMALE"
+                },
+                {
+                    "displayName": "Not known",
+                    "value": "NOT_KNOWN"
+                },
+                {
+                    "displayName": "Prefer not to say",
+                    "value": "NOT_SPECIFIED"
+                },
+                {
+                    "displayName": "Non-binary/ Genderqueer/ Gender Fluid",
+                    "value": "NON_BINARY"
+                },
+                {
+                    "displayName": "Transgender",
+                    "value": "TRANSGENDER"
+                },
+                {
+                    "displayName": "Other",
+                    "value": "OTHER"
+                }
+            ],
+            "bloodGroup": false,
+            "phoneNumber": true,
+            "email": true,
+            "primaryAddress": false,
+            "emergencyPhoneNumber": false,
+            "familyMedicalHistory": false,
+            "pastHistory": false,
+            "presentSymptoms": false,
+            "operationHistory": false,
+            "chronicIllness": false,
+            "allergyHistory": false,
+            "pregnancy": false,
+            "dateOfLastPhysicalExam": false,
+            "ordering": [
+                "dateOfBirth",
+                "biologicalSex",
+                "gender",
+                "ethnicity",
+                "height"
+            ]
+        },
+        "clinicianOnlyFields": {
+            "surgeryDateTime": false
+        }
+    },
+    "features": {
+        "appMenu": [],
+        "appointment": true,
+        "offBoarding": true,
+        "personalDocuments": true,
+        "patientPersonalization": {
+            "rag": true,
+            "schedule": false,
+            "goal": false
+        },
+        "proxy": false,
+        "labels": true,
+        "portal": {
+            "newRolesSupport": true
+        },
+        "offBoardingReasons": {
+            "reasons": [
+                {
+                    "order": 1,
+                    "displayName": "hu_offboarding_reason_completed"
+                },
+                {
+                    "order": 2,
+                    "displayName": "hu_offboarding_reason_deceased"
+                },
+                {
+                    "order": 3,
+                    "displayName": "hu_offboarding_reason_lost_to_follow_up"
+                },
+                {
+                    "order": 4,
+                    "displayName": "hu_offboarding_reason_inappropriate_monitoring"
+                },
+                {
+                    "order": 5,
+                    "displayName": "hu_offboarding_reason_no_longer_monitoring"
+                },
+                {
+                    "order": 6,
+                    "displayName": "hu_offboarding_reason_recovered"
+                }
+            ],
+            "otherReason": true
+        },
+        "moveUserReasons": {
+            "reasons": [
+                {
+                    "order": 1,
+                    "displayName": "hu_move_user_reason_differential_diagnosis"
+                },
+                {
+                    "order": 2,
+                    "displayName": "hu_move_user_reason_new_diagnosis"
+                },
+                {
+                    "order": 3,
+                    "displayName": "hu_move_user_reason_change_in_clinical_status"
+                },
+                {
+                    "order": 4,
+                    "displayName": "hu_move_user_reason_incorrectly_onboarded"
+                }
+            ],
+            "otherReason": true
+        },
+        "messaging": {
+            "enabled": false,
+            "twoWayMessaging": true,
+            "allowCustomMessage": true
+        },
+        "hideAppSupport": true,
+        "summaryReport": {
+            "enabled": true
+        },
+        "linkInvites": false,
+        "classB": false,
+        "deviceIntegration": {
+            "enabled": false
+        },
+        "customAppConfig": {
+            "thirdPartyApps": {
+                "enabled": true,
+                "apps": {
+                    "appleHealthOrGoogleFit": true,
+                    "fitbit": true,
+                    "iDO": false
+                }
+            }
+        },
+        "improvedOnboarding": true,
+        "timeline": false
+    },
+    "extraCustomFields": {},
+    "language": "en-GB",
+    "security": {
+        "mfaRequired": false,
+        "appLockRequired": false
+    },
+    "mfaRequired": false,
+    "dashboardConfiguration": {
+        "day0Anchor": "REGISTRATION_DATE"
+    },
+    "integrationDevices": [],
+    "defaultUnits": {
+        "BloodGlucose": "mmol/L",
+        "BodyMeasurement": "cm",
+        "Height": "cm",
+        "Temperature": "oC",
+        "Weight": "kg"
+    }
+}
